@@ -1,6 +1,8 @@
 # AE1-Juego-piedra-papel-o-tijeras
 En este repositorio podremos jugar al famoso juego de sheldon: piedra, papel, tijera, lagarto, spock. ¿Serás capaz de ganar a la brillante mente de la serie The Big Bang Theory? ¡Diviértete!
 
+[![Pesta-a.png](https://i.postimg.cc/rmrjkJnk/Pesta-a.png)](https://postimg.cc/R6vK1cxs)
+
 ## El juego no comienza hasta que introduzcas tu nombre y le des clic al botón de jugar
 
 [![index.png](https://i.postimg.cc/TYPg60HW/index.png)](https://postimg.cc/dDzLR2Fq)
