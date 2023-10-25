@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel= "stylesheet" type="text/css" href="css/css.css">
+	<link rel = "shortcut icon" href="img/sheldon.jpg">
+	<script type="text/javascript" src="javascript/javascript.js"></script>
+	<title>El juego de Sheldon</title>
+</head>
+<body >
+
+	<header >
+	  <h1 id="h1">¡Juguemos a Piedra, Papel, Tijera, Lagarto, Spock!</h1>
+	  <p id="parrafo"> Tienes que introducir tu nombre para comenzar a jugar</p>
+
+	   <form action="" id="formulario" class="formulario">
+			<label for="name-player" >Nombre:</label>
+		
+			<input type="text" placeholder="Introduce tu nombre" id="caja" class="caja" required autofocus> 
+		
+			<button disabled="" type="button" id="button" value="activar juego" >¡Click para comenzar a jugar!</button>
+		</form>
+
+		
+
+    </header>
+
+    
+    <main class="main disabled" id="main">
+
+
+    	<p class="instructions" id="instructions">
+    		El primero en llegar a 10 puntos gana. 
+    	</p>
+    	<div class = "marker">
+    		<p class="name name-player">Tu:</p>
+    		<p class="name name-sheldon">Sheldon</p>
+    		<p class="points"></p>
+    			<span id="puntos-usuario">0</span>
+    			<span>-</span>
+    			<span id="puntos-sheldon">0</span>
+    		<p/>
+        </div>
+        <div class="instrumentos" id="instrumentos" >
+        	<h2 id="h2">¿Qué eliges?</h2>
+        	<div class="recursos">
+        		<button class= "recurso" id="piedra🪨">🪨</button>
+        		<button class= "recurso" id="papel🧻">🧻</button>
+        		<button class= "recurso" id="tijera✂️">✂️</button>
+        		<button class= "recurso" id="lagarto🦎">🦎</button>
+        		<button class= "recurso" id="spock🖖">🖖</button>
+            </div>
+
+    	</div>
+
+    	<div class="mensaje disabled" id="mensaje">
+    		<p> 
+    			Has usado <span class="eleccion" id="eleccion-usuario">papel 🧻</span><br>
+    			y sheldon uso <span class="eleccion" id="eleccion-sheldon">piedra 🪨</span>
+
+    		</p>
+    		<p id="gana-punto">Has ganado un punto</p>
+    	</div>
+
+    	<button class="btn disabled" id="reiniciar">Volver a jugar</button>
+    </main>
+
+
+</body>
+
+</html>

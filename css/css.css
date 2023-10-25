@@ -1,0 +1,279 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: "Monserrat", sans-serif;
+}
+
+
+
+:root {
+	--clr-marigold: #FDAC53;
+	--clr-frenchblue: #0072B5;
+	--clr-amethyst: #926AA6;
+
+}
+
+body{
+	background-color: var(--clr-amethyst);
+	color: var(--clr-marigold);
+
+}
+
+header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	background-color: var(--clr-marigold);
+	color: var(--clr-amethyst);
+	/*border-bottom-left-radius: 50px;*/
+	/*border-bottom-right-radius: 50px;*/
+	border-radius: 50px ;
+	margin-bottom: 60px;
+	border: 5px solid #6B5876;
+}
+
+#h1{
+	margin-bottom: 7px;
+	font-weight: 100;
+	font-style: oblique;
+	font-variant: small-caps;
+	text-shadow: 2px 2px 2px #6B5876 ;
+
+}
+
+#h2{
+	font-size: 50px;
+	font-style: oblique;
+	font-variant: small-caps;
+	margin-bottom: 20px;
+}
+
+#parrafo{
+	margin-bottom: 8px;
+	font-weight: 600;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	text-align: center;
+
+
+
+
+}
+
+.instructions{
+	margin-bottom: 50px;
+	background-color: var(--clr-marigold);
+	color: var(--clr-amethyst);
+	padding: 2px;
+	border-radius: 8px;
+	font-size: 30px;
+	
+	
+}
+
+
+
+.marker{
+	background-color: var(--clr-marigold);
+	padding: 30px;
+	border-radius: 10px;
+	color: var(--clr-amethyst);
+	position:relative;
+	font-weight: 600;
+	margin-bottom: 60px;
+	border: 2px solid #6B5876;
+
+
+}
+
+.marker .name{
+	position:absolute;
+	color: var(--clr-marigold);
+	background-color:  var(--clr-amethyst);
+	line-height: 1;
+	padding:30px;
+	border-radius: 5px;
+	border: 2px solid var(--clr-marigold);
+
+
+}
+
+.marker .name-player{
+	right: 150%;
+	font-size: 20px;
+	padding: 15px;
+
+}
+
+.marker .name-sheldon{
+	left: 150%;
+	font-size: 20px;
+	padding: 15px;
+}
+
+.marker #puntos-usuario{
+	font-size: 30px;
+	padding: 20px;
+	
+
+}
+
+.marker #puntos-sheldon{
+	font-size: 30px;
+	padding: 20px;
+	
+
+}
+
+.instrumentos{
+	margin-bottom: 20px;
+
+}
+
+.instrumentos h2{
+	font-size: 26px;
+	font-weight: 200;
+	margin-bottom: 8px;
+}
+
+.recursos{
+	display:flex;
+	justify-content: center;
+	gap: 20px;
+	margin-bottom: 30px;
+
+
+
+}
+
+#piedra🪨{
+	font-size: 50px;
+	background-color: var(--clr-marigold);
+	border: 0;
+	padding: 2px;
+	border-radius: 6px;
+	cursor:crosshair;
+	border: 2px solid #6B5876;
+
+
+}
+
+#papel🧻{
+	font-size: 50px;
+	background-color: var(--clr-marigold);
+	border: 0;
+	padding: 2px;
+	border-radius: 6px;
+	cursor:crosshair;
+	border: 2px solid #6B5876;
+
+}
+#tijera✂️{
+	font-size: 50px;
+	background-color: var(--clr-marigold);
+	border: 0;
+	padding: 2px;
+	border-radius: 6px;
+	cursor:crosshair;
+	border: 2px solid #6B5876;
+
+}
+#lagarto🦎{
+	font-size: 50px;
+	background-color: var(--clr-marigold);
+	border: 0;
+	padding: 2px;
+	border-radius: 6px;
+	cursor:crosshair;
+	border: 2px solid #6B5876;
+
+}
+#spock🖖{
+	font-size: 50px;
+	background-color: var(--clr-marigold);
+	border: 0;
+	padding: 2px;
+	border-radius: 6px;
+	cursor:crosshair;
+	border: 2px solid #6B5876;
+
+}
+
+.mensaje{
+	margin-bottom: 35px;
+	font-size: 35px;
+	font-weight: 600;
+	padding: 20px;
+
+
+}
+
+.mensaje .eleccion{
+	color: var(--clr-amethyst);
+	background-color: var(--clr-marigold);
+	border-radius: 5px;
+	padding-inline: 4px;
+	font-size: 35px;
+
+}
+
+.btn{
+	border:0;
+	line-height: 1;
+	background-color: var(--clr-marigold);
+	color:var(--clr-amethyst);
+	font-size: 30px;
+	padding: 10px;
+	border-radius: 7px;
+	cursor:pointer;
+	font-weight: 600;
+
+
+}
+
+.disabled{
+	display:none;
+}
+
+#button{
+	position:relative;
+	padding:5px;
+	color: #6B5876;
+	font-size: 14px;
+	border-radius: 10px;
+	background-color: transparent;
+	border:3px solid #6B5876;
+	text-transform: uppercase;
+	overflow:hidden;
+	cursor:pointer;
+
+}
+
+#caja{
+	position:relative;
+	padding:5px;
+	color: #6B5876;
+	font-size: 14px;
+	border-radius: 10px;
+	background-color: transparent;
+	border:3px solid #6B5876;
+	text-transform: uppercase;
+	overflow:hidden;
+
+}
+
+
+
+
+
+
+
