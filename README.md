@@ -5,7 +5,7 @@ En este repositorio podremos jugar al famoso juego de sheldon: piedra, papel, ti
 
 [![index.png](https://i.postimg.cc/TYPg60HW/index.png)](https://postimg.cc/dDzLR2Fq)
 
-## Ha comenzado el juego. Como se puede ver aparece el main con un marcador a la izquierda estas "tu" y a la derecha "Sheldon". Abajo del marcador esán los iconos del juego, estos iconos se han hecho con el comando windows + . y te salen los iconos de whatsApp, perfectos para montar el juego. 
+## Ha comenzado el juego. Como se puede ver apreciar al escribir el nombre aparece el "main" para poder jugar. Se muestra ala izquierda del marcador "tu" y a la derecha "Sheldon". Abajo del marcador esán los iconos del juego, estos iconos se han hecho con el comando windows + . y te salen los iconos de whatsApp, perfectos para montar el juego. 
 
 [![index1.png](https://i.postimg.cc/wT68TyhN/index1.png)](https://postimg.cc/YjyydSD2)
 
